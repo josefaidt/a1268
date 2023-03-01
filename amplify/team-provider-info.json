@@ -28,7 +28,9 @@
         "a1268770a422f": {
           "asdf": "asdfasdf",
           "anotherone": "asdf",
-          "anotheranother": "another"
+          "anotheranother": "another",
+          "deploymentBucketName": "amplify-a1268-dev-155611-deployment",
+          "s3Key": "amplify-builds/a1268770a422f-5a6d316666757755516b-build.zip"
         }
       }
     }

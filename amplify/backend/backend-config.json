@@ -102,6 +102,22 @@
         }
       ]
     },
+    "AMPLIFY_function_a1268770a422f_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268770a422f"
+        }
+      ]
+    },
+    "AMPLIFY_function_a1268770a422f_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268770a422f"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {
