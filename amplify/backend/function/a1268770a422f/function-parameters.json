@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "asdf",
+      "environmentVariableName": "asdf"
+    },
+    {
+      "cloudFormationParameterName": "anotherone",
+      "environmentVariableName": "anotherone"
+    },
+    {
+      "cloudFormationParameterName": "anotheranother",
+      "environmentVariableName": "anotheranother"
+    }
+  ]
+}

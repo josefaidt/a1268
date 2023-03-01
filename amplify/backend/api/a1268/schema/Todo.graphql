@@ -1,6 +1,24 @@
-type Todo @model {
+type Todo
+  @model
+  @auth(
+    rules: [
+      { allow: owner, ownerField: "tenantId", identityClaim: "custom:tenantId" }
+      { allow: public, operations: [read] }
+    ]
+  ) {
   id: ID!
-  cpk: String! @primaryKey
   name: String!
   description: String
+  tenantId: ID!
+    @auth(
+      rules: [
+        {
+          allow: owner
+          ownerField: "tenantId"
+          identityClaim: "custom:tenantId"
+          operations: [create, read]
+        }
+        { allow: public, operations: [read] }
+      ]
+    )
 }

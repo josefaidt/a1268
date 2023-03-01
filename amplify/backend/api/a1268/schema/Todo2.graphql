@@ -1,5 +1,8 @@
 type Todo2 @model {
   id: ID!
+  cpk: String!
   name: String!
   description: String
 }
+
+# 629
