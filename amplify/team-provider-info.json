@@ -31,6 +31,12 @@
           "anotheranother": "another",
           "deploymentBucketName": "amplify-a1268-dev-155611-deployment",
           "s3Key": "amplify-builds/a1268770a422f-5a6d316666757755516b-build.zip"
+        },
+        "a1268bddf67bd": {
+          "myvar": "myvalue",
+          "anothervar": "anothervalue",
+          "deploymentBucketName": "amplify-a1268-dev-155611-deployment",
+          "s3Key": "amplify-builds/a1268bddf67bd-43426464622f30787448-build.zip"
         }
       }
     }

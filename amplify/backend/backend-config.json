@@ -68,6 +68,12 @@
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "a1268bddf67bd": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "hosting": {
@@ -115,6 +121,38 @@
         {
           "category": "function",
           "resourceName": "a1268770a422f"
+        }
+      ]
+    },
+    "AMPLIFY_function_a1268bddf67bd_anothervar": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268bddf67bd"
+        }
+      ]
+    },
+    "AMPLIFY_function_a1268bddf67bd_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268bddf67bd"
+        }
+      ]
+    },
+    "AMPLIFY_function_a1268bddf67bd_myvar": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268bddf67bd"
+        }
+      ]
+    },
+    "AMPLIFY_function_a1268bddf67bd_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "a1268bddf67bd"
         }
       ]
     },
